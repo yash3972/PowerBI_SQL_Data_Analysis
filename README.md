@@ -65,8 +65,8 @@ The dashboard uses three main tables:
 
 
 ---
-## 📸 Screenshots  
-📌 *(Attach images of the dashboard here for better visualization)*  
+## 📸 Dashboard Screenshots  
+📌![Dashboard Preview]()
 
 ---
 
