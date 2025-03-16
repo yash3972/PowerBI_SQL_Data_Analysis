@@ -66,8 +66,8 @@ The dashboard uses three main tables:
 
 ---
 ## 📸 Dashboard Screenshots  
-📌![Dashboard Preview]()
-
+📌![Dashboard Preview](Home.png)
+📌![Dashboard Preview](Insights.png)
 ---
 
 ## 🏆 Key Learnings
