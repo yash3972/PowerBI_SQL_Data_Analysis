@@ -1,8 +1,8 @@
-# 🍕 Pizza Sales Dashboard
+# Pizza Sales Dashboard
 
 This project is a **Pizza Sales Dashboard** built using **Power BI**, **SQL**, **Excel**, and **Power Query**. The dashboard provides insights into pizza sales trends, key performance indicators (KPIs), and customer behavior over a timeline.
 
-## 📌 Features
+## Features
 - **SQL Database Connection**: Power BI is connected to an SQL database to retrieve sales data.
 - **Data Import & Transformation**: Data is imported via SQL and transformed using Power Query.
 - **Data Modeling**: Relationships between tables (Sales, Customers, Products) are established.
@@ -11,7 +11,7 @@ This project is a **Pizza Sales Dashboard** built using **Power BI**, **SQL**, *
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Power BI** - Data visualization and dashboard creation  
 - **SQL** - Storing and retrieving structured sales data  
 - **Power Query** - Data transformation and cleaning  
@@ -20,57 +20,57 @@ This project is a **Pizza Sales Dashboard** built using **Power BI**, **SQL**, *
 
 ---
 
-## 📂 Data Model
+## Data Model
 The dashboard uses three main tables:  
 1. **Sales** - Contains order details (Order ID, Date, Product ID, Customer ID, Quantity, Price, Total Amount).  
 2. **Products** - Lists available pizzas with their categories.  
 3. **Customers** - Stores customer details and their region.  
 
-### 🔗 Relationships:
+### Relationships:
 - `Sales[ProductID]` → `Products[ProductID]`
 - `Sales[CustomerID]` → `Customers[CustomerID]`
 
 ---
 
-## 📊 Dashboard Insights
-- **Total Sales Revenue** 💰
-- **Average Order Value** 📈
-- **Total Orders** 🛒
-- **Monthly Sales Growth** 📊
-- **Sales Breakdown by Category & Region** 🌍
+## Dashboard Insights
+- **Total Sales Revenue** 
+- **Average Order Value** 
+- **Total Orders** 
+- **Monthly Sales Growth** 
+- **Sales Breakdown by Category & Region** 
 
 ---
 
-## 🔌 Steps to Run the Project
-### 1️⃣ Connect SQL Database to Power BI
+## Steps to Run the Project
+### 1 Connect SQL Database to Power BI
 - Open **Power BI Desktop**.
 - Go to **Home → Get Data → SQL Server**.
 - Enter **Server Name** and **Database Name** (`PizzaSalesDB`).
 - Load the `Sales`, `Products`, and `Customers` tables.
 
-### 2️⃣ Data Transformation (Power Query)
+### 2 Data Transformation (Power Query)
 - Merge tables to get a unified dataset.
 - Remove duplicates and clean missing data.
 - Convert data types appropriately.
 
-### 3️⃣ Data Modeling (Relationships)
+### 3 Data Modeling (Relationships)
 - Establish relationships between `Sales`, `Products`, and `Customers`.
 
-### 4️⃣ Create DAX Measures
+### 4 Create DAX Measures
 - Add calculated fields such as **Total Sales, Average Order Value, and Monthly Growth**.
 
-### 5️⃣ Build Dashboard
+### 5 Build Dashboard
 - Drag and drop **KPIs, Line Charts, Bar Graphs, and Tables**.
 - Use **slicers** to filter data by time, category, or region.
 
 
 ---
-## 📸 Dashboard Screenshots  
-📌![Dashboard Preview](Home.png)
-📌![Dashboard Preview](Insights.png)
+## Dashboard Screenshots  
+![Dashboard Preview](Home.png)
+![Dashboard Preview](Insights.png)
 ---
 
-## 🏆 Key Learnings
+## Key Learnings
 - How to connect Power BI to an **SQL Database**.
 - Transforming and modeling data efficiently.
 - Writing **DAX measures** for custom insights.
@@ -78,8 +78,8 @@ The dashboard uses three main tables:
 
 ---
 
-## 📢 Future Improvements
-✅ Implement **Forecasting Models** using Power BI AI visuals.  
-✅ Automate data updates using **Power BI Service**.  
+## Future Improvements
+ Implement **Forecasting Models** using Power BI AI visuals.  
+ Automate data updates using **Power BI Service**.  
 
 ---
